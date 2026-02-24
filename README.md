@@ -1,9 +1,26 @@
-**This repo is supposed to be used as config by NvChad users!**
+Uninstall existing nvim
+```
+  #Linux (unix)
+  rm -rf ~/.config/nvim
+  rm -rf ~/.local/state/nvim
+  rm -rf ~/.local/share/nvim
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+  #Windows (Powershell)
+  rm -Force ~\AppData\Local\nvim
+  rm -Force ~\AppData\Local\nvim-data
 
-# Credits
+  #Windows (CMD)
+  rd -r ~\AppData\Local\nvim
+  rd -r ~\AppData\Local\nvim-data
+```
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+Clone 
+```
+  git clone https://github.com/yuristian/nvim ~/.config/nvim && nvim
+```
+
+this configuration is using
+1. ToggleTerm
+2. LazyGit
+3. Nvim-autopairs
+4. Noice
