@@ -5,9 +5,10 @@ local options = {
     html = { "prettier" },
     javascript = { "prettier" },    -- JS
     typescript = { "prettier" },    -- TS
-    react = { "prettier" },         -- JSX / React
-    go = { "gofmt" },               -- Go
-    php = { "php-cs-fixer" },       -- PHP 
+    javascriptreact = { "prettier" },   -- JSX / React
+    typescriptreact = { "prettier" },
+    go = { "gofmt", "goimports",  "gofumpt" },               -- Go
+    php = { "php_cs_fixer" },       -- PHP 
   },
 
   format_on_save = {
