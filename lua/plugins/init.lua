@@ -14,6 +14,11 @@ return {
   },
 
   {
+    "kdheepak/lazygit.nvim",
+    cmd = "LazyGit",
+  },
+
+  {
     "folke/noice.nvim",
     event = "VeryLazy",
     config = function()

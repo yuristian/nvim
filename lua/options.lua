@@ -23,5 +23,6 @@ o.timeoutlen = 400
 o.swapfile = false
 o.backup = false
 o.undofile = true
+o.showcmd = true
 
 o.clipboard = "unnamedplus"
