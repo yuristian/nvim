@@ -24,5 +24,7 @@ o.swapfile = false
 o.backup = false
 o.undofile = true
 o.showcmd = true
+o.hlsearch = true
+o.title = true
 
 o.clipboard = "unnamedplus"
